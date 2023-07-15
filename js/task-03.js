@@ -24,14 +24,14 @@ const markup = images.map(image => `<li class="item"><img class="img-item" src="
 
 list.insertAdjacentHTML("beforeend", markup);
 
-const liElements = document.querySelectorAll(".item");
-for (const element of liElements) {
-  element.style.width = "200px";
-  element.style.height = "150px";
-  element.style.listStyle = "none";
-  element.style.borderColor = "red";
-  element.style.borderStyle = "dashed";
-  element.style.borderWidth = "2px";
-  element.firstElementChild.style.width = "100%";
-  element.firstElementChild.style.height = "100%";
-}
+// const liElements = document.querySelectorAll(".item");
+// for (const element of liElements) {
+//   element.style.width = "200px";
+//   element.style.height = "150px";
+//   element.style.listStyle = "none";
+//   element.style.borderColor = "red";
+//   element.style.borderStyle = "dashed";
+//   element.style.borderWidth = "2px";
+//   element.firstElementChild.style.width = "100%";
+//   element.firstElementChild.style.height = "100%";
+// }

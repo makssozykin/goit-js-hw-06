@@ -26,7 +26,6 @@ function createBoxes(amount) {
     size += 10;
     const div = document.createElement('div');
     div.classList.add('box');
-    div.classList.add('item-' + [i]);
     fragment.appendChild(div);
     fragment.children[i].style.backgroundColor = getRandomHexColor();
     fragment.children[i].style.width = `${size}px`;
